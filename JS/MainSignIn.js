@@ -95,7 +95,7 @@ password.addEventListener('input', function (b) {
 
 function EnableDisable(CheckBox) {
   var Create = document.getElementById(CheckBox)
-  Create.disable = CheckBox.checked ? false 
+  Create.disable = CheckBox.checked ? false: true
   if (!Create.disabled) {
     Create.focus()
   }
